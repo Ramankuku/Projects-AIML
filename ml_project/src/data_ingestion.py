@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from config.utils import DATA_DIR, ARTIFACT_DIR, TRAIN_PATH, TEST_PATH, TEST_RATIO_SPLIT
 
-
+#
 class DataIngestion:
     def __init__(self):
         self.data_path = DATA_DIR
